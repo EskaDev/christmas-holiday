@@ -105,15 +105,16 @@ body {
 }
 
 .btn {
-  display: inline-block;
   font-size: 25px;
   color: #be0f34;
   border: 5px solid #be0f34;
   border-radius: 10px;
   background-color: transparent;
-  padding: 0px 25px;
   height: 45px;
+  width: 160px;
+  text-align: center;
   line-height: 35px;
+  align-self: center;
   position: relative;
 }
 .btn::after {
@@ -239,6 +240,8 @@ body {
   flex: 0 1 50%;
   padding: 0 15px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .content__img {
   padding: 0px 0px 355px 0px;
@@ -246,6 +249,7 @@ body {
 .content__descr {
   padding: 15px 30px;
   margin: 0px 0px 15px 0px;
+  flex: 1 1 auto;
 }
 @media (max-width: 656px) {
   .content__descr {
